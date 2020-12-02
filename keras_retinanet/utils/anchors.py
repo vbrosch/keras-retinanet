@@ -17,7 +17,7 @@ limitations under the License.
 import numpy as np
 from tensorflow import keras
 
-from ..utils.compute_overlap import compute_overlap
+from exscribit.extract_stamps.keras_retinanet.utils.compute_overlap import compute_overlap
 
 
 class AnchorParameters:
